@@ -1,0 +1,15 @@
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\task_31.exe
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\task_31.deps.json
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\task_31.runtimeconfig.json
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\task_31.dll
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\ref\task_31.dll
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\bin\Debug\net6.0\task_31.pdb
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.csproj.AssemblyReference.cache
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.AssemblyInfoInputs.cache
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.AssemblyInfo.cs
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.csproj.CoreCompileInputs.cache
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.dll
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\ref\task_31.dll
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.pdb
+E:\GeekBrains\4 Языки программирования\ДЗ\Репозитории\tasks\task_31\obj\Debug\net6.0\task_31.genruntimeconfig.cache
