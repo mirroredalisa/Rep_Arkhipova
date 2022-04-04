@@ -26,80 +26,33 @@ for (int i = 0; i < n; i++)
 
 int[,] array2 = new int[n,n];
 
-
 int a = 0;
 int b = 0;
 
-
-        for (int i = 0; i < n; i++) //перебираем элементы, которые проверяем
-        {
-          array2[a,b] = array [i]; //записываем первый элемент в массив
-          Console.Write("Группа " + (b+1) + ": ");
-          Console.Write(array2[a,b] + " ");
-          a = a + 1;
-          for (int j = 0; j < n; j++) //перебираем все элементы для проверки условия
-        {
-            if ((array[j] % array[i] != 0) && (array[j] % array[i] != 0)) //если не делится нацело
-            {
-                array2[a,b] = array[j]; //записываем элемент в массив
-                Console.Write(array2[a,b] + " ");
-                //нужно удалить этот элемент из исходного массива?
-                a = a + 1;
-            }
-        }
+for (int i = 0; i < n; i++) //перебираем элементы, которые проверяем
+{
+  if (array [i] != -1)
+   {
+        b = b + 1;
+        array2[a,b] = array [i]; //записываем первый элемент в массив
+        Console.Write("Группа " + (b) + ": ");
+        Console.Write(array2[a,b] + " ");
+        a = a + 1;
+        for (int j = 0; j < n; j++) //перебираем все элементы для проверки условия
+        {  
+           if ((array [j] != -1) && (array [j] != 2) && (array [j] != 1))
+           {   
+               if ((array[j] % array[i] != 0) && (array[j] % array[i] != 0)) //если не делится нацело
+               {
+                 array2[a,b] = array[j]; //записываем элемент в массив
+                 array[j] = -1; //чтобы исключить этот элемент из исходного массива
+                 Console.Write(array2[a,b] + " ");
+                 a = a + 1; 
+               }
+           }
+        }   
         Console.WriteLine(" ");
         a = 0;
-        b = b + 1;
-    }
-
-//PrintArray(array2);
-
-/*
-for (int i = 0; i < n; i++)
-{
-    for (int j = 0; j < n; j++)
-    {
-        Console.Write(array2[i,j] + " ");
-    }
-    Console.WriteLine(" ");
+   }
 }
-*/
-
-
-//}
-
-/*
-int[,] array = new int[n,n];
-//int[,] group = new int[b,a];
-
-for (int i = 0; i < n; i++)
-{
-    for (int j = 0; j < n; j++)
-    {
-        array[i,j] = new Random().Next(1,50);
-        Console.Write(array[i,j] + " ");
-    }
-    Console.WriteLine(" ");
-}
-/*
-
-
-/*
-for (int j = 0; j < n1; j++)
-{
-    for (int i = 0; i < n2; i++)
-    {
-        for (int u = 1; j < n1; j++)
-        {
-            for (int v = 0; j < n2; j++)
-            {
-                if (array[i,j] % array[v,u])
-                group[a] = array[i,j];
-                a = a + 1;
-            }
-        }
-    }
- }
-
-Console.WriteLine(group[a] + " "); 
-*/
+Console.WriteLine("Количество групп М: " + b);
